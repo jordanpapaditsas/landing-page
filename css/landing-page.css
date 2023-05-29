@@ -4,10 +4,133 @@
   --secondary-text: #E5E7EB;   /* font-size: 18px;   ( Hero secondary text, Header Link Text ) */
   --header-logo: #F9FAF8;  /* font-size: 24px;   Header Logo Text */
   --button-color: #3882F6;  /* both buttons */
-  --info-header-text: #1F2937;  /* 36px extra-bold; */
+  --info-heading-text: #1F2937;  /* 36px extra-bold; */
   --quote-section: #E5E7EB;   /* quote section backround color */
   --quote-text: #1F2937;  /* 36px  light  italic  quote text */   
-  --image-size: 250px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body, html {
+  height: 100vh;
+}
+
+.logo {
+  width: 70%;
+  transition: all 1.0s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all .5s;
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.img-size {
+  width: 220px;
+  height: 147px;
+}
+
+.header-container {
+  background-color: var(--dark-bg);
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 3rem;
+  flex-wrap: wrap;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar ul li a:hover {
+  background-color: var(--header-logo);
+  color: black;
+  padding: .5rem;
+  margin: -.5rem;
+}
+
+.header2 { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.hero-text {
+  color: var(--main-text);
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  
+}
+
+.hero-secondary {
+  color: var(--main-text);
+  font-size: 18px;
+  text-align: center;
+}
+
+.hdr-btn {
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: var(--button-color);
+  color: white;
+  padding: .5rem;
+  border-radius: .3rem;
+  width: 6rem;
+  border-style: none;
+  font-size: 1rem;
+}
+
+.button:hover {
+  opacity: .8;
+}
+
+.heading-section1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.section1-cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card {
+  flex: 1;
+  text-align: center;
+}
+
+.section2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
