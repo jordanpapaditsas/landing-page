@@ -8,5 +8,6 @@ Tech-Stack:
   <li>HTML5</li>
   <li>CSS3</li>
 </ul>  
-##Demo 
+
+## Demo
 Live preview: https://jordanpapaditsas.github.io/landing-page/
