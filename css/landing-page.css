@@ -1,0 +1,13 @@
+:root {
+  --dark-bg: #1F2937;  /* Hero and footer */
+  --main-text: #F9FAF8;    /* font-size: 48px, extra-bold  Hero main text (this website is awesome) */
+  --secondary-text: #E5E7EB;   /* font-size: 18px;   ( Hero secondary text, Header Link Text ) */
+  --header-logo: #F9FAF8;  /* font-size: 24px;   Header Logo Text */
+  --button-color: #3882F6;  /* both buttons */
+  --info-header-text: #1F2937;  /* 36px extra-bold; */
+  --quote-section: #E5E7EB;   /* quote section backround color */
+  --quote-text: #1F2937;  /* 36px  light  italic  quote text */   
+  --image-size: 250px;
+}
+
+
