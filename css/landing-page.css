@@ -38,6 +38,7 @@ body, html {
 }
 
 .hdr-image {
+  width: 250px;
   border-radius: 50%;
 }
 
@@ -129,6 +130,7 @@ body, html {
   gap: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -195,7 +197,7 @@ body, html {
   background-color: var(--dark-bg);
   color: white;
   font-weight: bold;
-  padding: 3rem;
+  padding: 2rem;
   gap: 1rem;
   margin-top: 3rem;
 }
@@ -208,4 +210,32 @@ body, html {
 
 .social-media a i:hover {
   color: var(--button-color);
+}
+
+@media (max-width: 900px) {
+  .hero-main {
+    font-size: 2.2rem;
+  }
+
+  .hero-secondary {
+    font-size: 1.1rem;
+  }
+
+  .heading-section1 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    font-size: 1.1rem;
+  }
+
+  .section2 {
+    font-size: 1.7rem;
+  }
+
+  .section3 .time {
+    font-size: 1.4rem;
+  }
+
+  
 }
