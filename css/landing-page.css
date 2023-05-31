@@ -309,13 +309,12 @@ body, html {
   }
 
   .hdr-image {
-    display: none;
+    width: 150px;
   }
 
   .navbar {
     display: none;
   }
-
 
   .toggle:checked ~ .navbar {
     display: flex;
@@ -330,7 +329,6 @@ body, html {
     flex-direction: column;
   }
 
-  
   .hamburger-container {
     display: flex;
     position: absolute;
