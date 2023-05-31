@@ -198,8 +198,9 @@ body, html {
   color: white;
   font-weight: bold;
   padding: 2rem;
-  gap: 1rem;
+  gap: 5rem;
   margin-top: 3rem;
+
 }
 
 .social-media a i {
@@ -236,6 +237,34 @@ body, html {
   .section3 .time {
     font-size: 1.4rem;
   }
+}
 
-  
+@media (max-width: 660px) {
+  .hero-main {
+    font-size: 2rem;
+  }
+
+  .hero-secondary {
+    font-size: .9rem;
+  }
+
+  .heading-section1 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    font-size: .9rem;
+  }
+
+  .section2 {
+    font-size: 1.3rem;
+  }
+
+  .section3 .time {
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    font-size: .8rem;
+  }
 }
