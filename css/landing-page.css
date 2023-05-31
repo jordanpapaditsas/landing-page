@@ -19,6 +19,7 @@ body, html {
  height: 100vh;
 }
 
+/* Header1 */
 .logo {
   width: 70%;
   transition: all 1.0s;
@@ -59,7 +60,6 @@ body, html {
   display: flex;
   gap: 3rem;
   list-style: none;
-  flex-wrap: wrap;
   margin-top: 1rem;
 }
 
@@ -76,6 +76,63 @@ body, html {
   margin: -.5rem;
 }
 
+/* Hamburger Menu */
+.hamburger-container {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.hamb-line {
+  position: absolute;
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  transition: .4s ease;
+}
+
+.hamb-line::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  transition: .4s ease;
+}
+
+.hamb-line::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  height: 5px;
+  width: 30px;
+  background-color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + label #active {
+  transform: rotate(135deg);
+}
+
+#toggle:checked + label #active::before {
+  transform: rotate(-90deg) 
+  translateX(-10px);
+}
+
+#toggle:checked + label #active::after {
+  display: none;
+}
+
+
+/* Header 2 */
 .header2 { 
   display: flex;
   align-items: center;
@@ -117,6 +174,7 @@ body, html {
   opacity: .5;
 }
 
+/* Main Sections */
 .heading-section1 {
   font-size: 36px;
   text-align: center;
@@ -189,6 +247,7 @@ body, html {
   border: 2px solid white;
 }
 
+/* Footer */
 .footer {
   display: flex;
   justify-content: space-around;
@@ -213,6 +272,7 @@ body, html {
   color: var(--button-color);
 }
 
+/* Media Queries */
 @media (max-width: 900px) {
   .hero-main {
     font-size: 2.2rem;
@@ -239,13 +299,43 @@ body, html {
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 690px) {
   .hero-main {
     font-size: 2rem;
   }
 
   .hero-secondary {
     font-size: .9rem;
+  }
+
+  .hdr-image {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+
+  .toggle:checked ~ .navbar {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .hamburger-container {
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
   }
 
   .heading-section1 {
@@ -266,5 +356,7 @@ body, html {
 
   .footer {
     font-size: .8rem;
+    padding: .5rem;
+    gap: 4rem;
   }
 }
