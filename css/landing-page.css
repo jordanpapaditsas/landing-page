@@ -38,7 +38,6 @@ body, html {
 }
 
 .hdr-image {
-  width: 70%;
   border-radius: 50%;
 }
 
@@ -81,12 +80,13 @@ body, html {
   align-items: center;
   justify-content: center;
   gap: 5rem;
+  flex-wrap: wrap;
 }
 
 .hero-text {
   color: var(--main-text);
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 1rem;
   
@@ -94,7 +94,7 @@ body, html {
 
 .hero-secondary {
   color: var(--main-text);
-  font-size: 18px;
+  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -106,14 +106,14 @@ body, html {
   background-color: var(--button-color);
   color: white;
   padding: .5rem;
-  border-radius: .3rem;
+  border-radius: .5rem;
   width: 6rem;
   border-style: none;
   font-size: 1rem;
 }
 
 .button:hover {
-  opacity: .8;
+  opacity: .5;
 }
 
 .heading-section1 {
@@ -139,4 +139,73 @@ body, html {
 .section2 {
   margin-top: 5rem;
   margin-bottom: 2rem;
+  background-color: var(--quote-section);
+  color: var(--quote-text);
+  font-size: 2.2rem;
+  font-style: italic;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+.author {
+  align-self: flex-end;
+}
+
+.container-section3 {
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: var(--button-color);
+  padding: 3rem;
+  color: white;
+  width: 50rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.newsletter .time {
+  font-size: 1.6rem;
+}
+
+.newsletter .join {
+  color: rgb(228, 226, 226);
+}
+
+.section-btn {
+  border: 2px solid white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: var(--dark-bg);
+  color: white;
+  font-weight: bold;
+  padding: 3rem;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.social-media a i {
+  font-size: 1.8rem;
+  color: #3b5998;
+  padding: .2rem;
+}
+
+.social-media a i:hover {
+  color: var(--button-color);
 }
