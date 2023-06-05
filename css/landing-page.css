@@ -370,6 +370,16 @@ body, html {
     font-size: 1.6rem;
   }
 
+  .button {
+    transition: .3s ease-in-out;
+  }
+
+  .button:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 5px var(--main-text);
+    transform: scale(1.5);
+  }
+
   .card {
     font-size: .9rem;
   }
