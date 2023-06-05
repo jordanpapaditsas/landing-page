@@ -67,13 +67,15 @@ body, html {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  transition: .3s ease-in-out;
 }
 
 .navbar ul li a:hover {
-  background-color: var(--header-logo);
+  background-color: white;
   color: black;
-  padding: .5rem;
-  margin: -.5rem;
+  transition: 0.3s ease-in-out;
+  transform: scale(2);
+  box-shadow: 1px 1px 15px var(--header-logo);
 }
 
 /* Hamburger Menu */
@@ -168,13 +170,13 @@ body, html {
   width: 6rem;
   border-style: none;
   font-size: 1rem;
-  transition: 0.5s;
+  transition: 0.3s all ease-in-out;
 }
 
 .button:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
-  border: 1px solid white;
+  transition: 0.3s;
+  box-shadow: 1px 1px 5px rgb(224, 221, 221);
+  transform: scale(1.1) translate3d(0,0,0);
 }
 
 /* Main Sections */
@@ -269,10 +271,13 @@ body, html {
   font-size: 1.8rem;
   color: #3b5998;
   padding: .2rem;
+  transition: .2s ease-in;
 }
 
 .social-media a i:hover {
   color: var(--button-color);
+  transform: scale(1.1);
+  transition: .2s ease-in;
 }
 
 /* Media Queries */
