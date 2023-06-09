@@ -2,6 +2,10 @@
 ## Description  
 Responsive landing page, fully made with CSS3 Flexbox layout model.  
 It is made for the purpose of training with Flexbox layout model, and understanding the principles of responsiveness.  
+
+## Demo
+Live preview: https://jordanpapaditsas.github.io/landing-page/
+
 ## Technologies  
 Tech-Stack:  
 <ul>
@@ -9,8 +13,6 @@ Tech-Stack:
   <li>CSS3</li>
 </ul>  
 
-## Demo
-Live preview: https://jordanpapaditsas.github.io/landing-page/
 
 ## Copyright &copy;
 The images used in this landing-page project are for educational use only.
