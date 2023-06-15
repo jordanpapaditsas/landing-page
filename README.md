@@ -1,6 +1,6 @@
 # Landing-Page
 ## Description  
-Responsive landing page, fully made with CSS3 Flexbox layout model.  
+Responsive landing page, fully made with CSS3 Flexbox layout model and Media Queries.  
 It is made for the purpose of training with Flexbox layout model, and understanding the principles of responsiveness.  
 
 ## Demo
