@@ -15,7 +15,7 @@ Tech-Stack:
 
 
 ## Copyright &copy;
-The images used in this landing-page project are for educational use only.
+The images used in this landing-page project are for educational use only.  
 All rights reserved to their original owners.  
 Sources:
 
